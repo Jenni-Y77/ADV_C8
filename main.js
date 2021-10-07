@@ -27,7 +27,7 @@ function gotResults(error, results) {
     img2 = document.getElementById('alien3')
     img3 = document.getElementById('alien4')
 
-    if (results[0].label == "Aplauso") {
+    if (results[0].label == "Clap") {
       img.src = 'aliens-01.gif';
       img1.src = 'aliens-02.png';
       img2.src = 'aliens-03.png';
